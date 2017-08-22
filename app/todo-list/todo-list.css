@@ -1,0 +1,65 @@
+.listTask {
+list-style: none;
+padding-top: 10px;
+text-transform: uppercase;
+font-weight: bold;
+}
+
+.listTask li >  div > span  {
+	border-bottom: 1px solid orange;
+	padding: 10px 0px;
+
+}
+.borderButton{
+	border-bottom: 1px solid black;
+}
+
+.titulo{
+	color: white;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+/*
+ .listTask li:hover div > button{
+	display: block;	
+}
+
+.listTask li div > button{
+	display: none;
+}*/
+
+ .listTask li:hover div >  button{
+	display: block;	
+}
+
+.listTask li div >  button{
+	display: none;
+}
+
+.container{
+background-color: rgba(250,145,0, 0.6);
+width: 450px;
+height: 450px; 
+padding-top: 10px;
+border-radius: 7px;
+ box-shadow: 5px 5px 5px #888888;
+ overflow: auto;
+ overflow-x: hidden; 
+}
+
+.line-through{
+text-decoration: line-through;
+
+}
+
+.btnRemove, .btnEdit, .btnModal {
+ width: 35px;
+ height: 35px;
+ border-radius: 50%;
+}
+.btnRemove{
+margin-left: 3px;
+ }
+ .btnRemove > span {
+ 	font-weight: bold;
+ }
